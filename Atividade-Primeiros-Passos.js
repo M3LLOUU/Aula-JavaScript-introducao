@@ -8,7 +8,6 @@
     inteiro idade = 20;
     real altura = 1.77;
     logico estudante = verdadeiro;
-
 */
 
 let nome   = "Jaime";
@@ -23,3 +22,5 @@ console.log("Nome: " + nome); // escreva(""Nome: ", nome);
 console.log("Idade: " + idade); // escreva("Idade: ", idade);
 console.log("Altura: " + altura); // escreva("Altura: ", altura);
 console.log("Estudante: " + estudante); // escreva("Estudante: ", estudante);
+
+console.log(`Nome: ${nome}, Idade: ${idade} anos, ${altura} de altura e sou estudadnte = ${estudante}`);
